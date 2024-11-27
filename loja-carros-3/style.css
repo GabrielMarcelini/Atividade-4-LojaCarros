@@ -54,10 +54,12 @@ header h1 {
 }
 
 .car-list {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
-    justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
+
 }
 
 .car-item {
